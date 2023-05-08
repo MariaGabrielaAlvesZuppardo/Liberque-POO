@@ -34,6 +34,30 @@ public class Livro extends Midia{
     @ElementCollection
     private List<String> comentarios = new ArrayList<>();
     
+    // Metodo para avaliação que o livro pode receber
+
+    public void adicionarAvaliacao(int avaliacao) {
+        this.avaliacoes.add(avaliacao);
+    }
+
+    public double calcularMediaAvaliacoes() {
+        if (this.avaliacoes.isEmpty()) {
+            return 0;
+        }
+
+        int somaAvaliacoes = 0;
+        for (int avaliacao : this.avaliacoes) {
+            somaAvaliacoes += avaliacao;
+        }
+
+        return (double) somaAvaliacoes / this.avaliacoes.size();
+    }
+
+    // Metodo para adicionar um comentario a um usuario
+    public void adicionarComentario(String comentario) {
+        comentarios.add(comentario);
+    }
+    
 
     }
 
