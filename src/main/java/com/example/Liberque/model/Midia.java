@@ -8,12 +8,16 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Getter
+@Setter
 
 public class Midia {
     @Id
@@ -24,13 +28,7 @@ public class Midia {
     private String anoLancamento;
     private String descricao;
 
-    public void addComentario(String comentario) {
-
-    }
-
-    public void setAvaliacao(int avaliacao) {
-
-    }
+ 
     
 
 }
