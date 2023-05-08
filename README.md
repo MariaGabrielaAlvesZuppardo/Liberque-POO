@@ -20,6 +20,7 @@ Este projeto têm como objetivo ser um grande acervo intelectual para a comunida
 - Criadores de Conteúdo 
 
 Sabemos como a representativiadade é importante, então seja livre. 
+Estamos esperando por você.
 
 Desenvolvido por Dara Luckwu e Gabriela Zuppardo 
 
