@@ -6,11 +6,15 @@ import java.util.Map;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 public class Usuario {
     private String nome;
     private String id;
@@ -21,7 +25,9 @@ public class Usuario {
     private List<String> listaDeEspera;
     private List<String> seriesListaDeEspera;
     private List<String> listaDeDocumentarios;
-    
+
+
+
     
     
 
